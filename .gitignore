@@ -1,0 +1,5 @@
+env/
+correct/
+.vim
+*.log 
+*.config
