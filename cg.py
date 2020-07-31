@@ -132,7 +132,7 @@ class FcgiApplicationRequest:
         end_req_strct = end_req.pack_struct()
         logger.debug(end_req_strct)
         os.write(stream_no,end_req_strct)
-        stream.flush()
+        self.stream.flush()
 
 
 
